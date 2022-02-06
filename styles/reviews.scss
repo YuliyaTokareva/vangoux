@@ -39,7 +39,7 @@
   height: 100px;
 }
 .testimonial__name {
-  // font-weight: 600;
+  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
   margin: 0;
@@ -47,7 +47,7 @@
   margin-top: 20px;
 }
 .testimonial__position {
-  // font-weight: 600;
+  font-weight: 600;
   font-size: 14px;
   line-height: 30px;
   display: flex;
@@ -76,5 +76,5 @@
 
 .testimonial__picture {
   position: absolute;
-  right: 0;
+  right: -8px;
 }
