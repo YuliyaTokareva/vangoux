@@ -1,0 +1,68 @@
+.header {
+  @include for-large-up {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  @include for-large-down {
+    padding-top: 40px;
+    margin-left: 80px;
+  }
+}
+.logo__img {
+  width: 50px;
+  height: 50px;
+}
+.logo__name {
+  width: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  color: #1968fc;
+  background-attachment: fixed;
+}
+.navigation {
+  // width: 1070px;
+  margin-left: auto;
+
+  @include for-large-down {
+    display: none;
+  }
+}
+.nav-list__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: #000000;
+  display: inline-block;
+  padding: 0 30px;
+  text-decoration: none;
+}
+.header__button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  margin-left: 20px;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  background: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  @include for-large-down {
+    display: none;
+  }
+}

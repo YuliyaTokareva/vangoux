@@ -1,0 +1,316 @@
+@media screen and (min-width: 1400px) {
+  .header {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 640px) and (max-width: 1399px) {
+  .logo {
+    padding-top: 40px;
+    margin-left: 80px;
+  }
+}
+
+.logo__img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo__name {
+  width: 100px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  color: #1968fc;
+  background-attachment: fixed;
+}
+
+.navigation {
+  margin-left: auto;
+}
+@media screen and (min-width: 640px) and (max-width: 1399px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.nav-list__item {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  color: #000000;
+  display: inline-block;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.header__button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+  margin-left: 20px;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  background: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+}
+@media screen and (min-width: 640px) and (max-width: 1399px) {
+  .header__button {
+    display: none;
+  }
+}
+
+.headline {
+  position: relative;
+  margin-bottom: 99px;
+}
+@media screen and (min-width: 1400px) {
+  .headline {
+    width: 1120px;
+    margin: auto;
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+  }
+}
+
+.headline__content {
+  width: 480px;
+  margin-left: 80px;
+  margin-top: 80px;
+  flex-shrink: 0;
+}
+@media screen and (min-width: 1400px) {
+  .headline__content {
+    width: 600px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+}
+
+.headline__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+
+.headline__deskription {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 40px;
+  margin-top: 20px;
+}
+
+.headline__actions-btn {
+  width: 300px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  background: #1968fc;
+  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+  margin-top: 40px;
+}
+
+.headline__img {
+  width: 599px;
+  height: 502px;
+  margin-top: 80px;
+  display: block;
+  margin-left: 20px;
+}
+@media screen and (min-width: 1400px) {
+  .headline__img {
+    margin-left: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.headline__mobile-info-banner {
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+  position: absolute;
+  bottom: -99px;
+  width: 100%;
+}
+@media screen and (min-width: 1400px) {
+  .headline__mobile-info-banner {
+    display: none;
+  }
+}
+
+.headline__mobile-info-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 520px;
+  display: block;
+  margin: 30px auto;
+}
+
+.testimonials {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+@media screen and (min-width: 1400px) {
+  .testimonials {
+    width: 1120px;
+    margin: auto;
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.testimonial {
+  width: 540px;
+  height: 280px;
+  left: 50px;
+  top: 1230px;
+  background: #ffffff;
+  filter: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 50px;
+}
+@media screen and (min-width: 1400px) {
+  .testimonial {
+    margin: 0;
+  }
+}
+
+.testimonial:first-child {
+  margin-top: 0;
+}
+
+.testimonial__main-info {
+  display: flex;
+  position: relative;
+}
+
+.testimonial__photo {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonial__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.testimonial__position {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #1967fa;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+.testimonial__picture {
+  width: 60px;
+  height: 46px;
+}
+
+.testimonial__text {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.testimonial__about-autor {
+  margin-left: 20px;
+  width: 340px;
+  flex-shrink: 0;
+}
+
+.testimonial__name {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.testimonial__position {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #1967fa;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.testimonial__picture {
+  position: absolute;
+  right: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  color: #11223f;
+}
+
+.page {
+  max-width: 1400px;
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+}
+
+.background-section {
+  background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
