@@ -83,6 +83,7 @@
 }
 @media screen and (min-width: 1024px) {
   .headline {
+    display: none;
     width: 1124px;
     margin: auto;
     display: flex;
@@ -185,6 +186,7 @@
 }
 @media screen and (min-width: 1024px) {
   .testimonials {
+    display: none;
     width: 1124px;
     margin: auto;
     padding-top: 160px;

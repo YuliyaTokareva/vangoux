@@ -3,6 +3,7 @@
   position: relative;
   margin-bottom: 99px;
   @include for-large-up {
+    display: none;
     // width: 1120px;
     width: 1124px;
     margin: auto;
