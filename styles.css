@@ -77,6 +77,7 @@
 }
 
 .headline {
+  display: none;
   position: relative;
   margin-bottom: 99px;
 }
@@ -178,6 +179,7 @@
 }
 
 .testimonials {
+  display: none;
   padding-top: 50px;
   padding-bottom: 120px;
 }
