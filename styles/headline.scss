@@ -1,15 +1,15 @@
 .headline {
-  display: none;
   position: relative;
   margin-bottom: 99px;
+  display: none;
   @include for-large-up {
-    display: none;
     // width: 1120px;
     width: 1124px;
     margin: auto;
     display: flex;
     margin-top: 150px;
     position: relative;
+    display: none;
   }
 }
 .headline__content {
