@@ -25,7 +25,6 @@
 }
 
 .logo__name {
-  font-weight: 600;
   font-size: 20px;
   line-height: 30px;
   text-align: center;
@@ -225,7 +224,6 @@
 }
 
 .testimonial__name {
-  font-weight: 600;
   font-size: 18px;
   line-height: 30px;
   margin: 0;
@@ -234,20 +232,18 @@
 }
 
 .testimonial__position {
-  font-weight: 600;
   font-size: 14px;
   line-height: 30px;
   display: flex;
   align-items: center;
-  color: #1967fa;
   opacity: 0.8;
   margin: 0;
   padding: 0;
 }
 
 .testimonial__picture {
-  width: 60px;
-  height: 46px;
+  width: 80px;
+  height: 65px;
 }
 
 .testimonial__text {
@@ -262,23 +258,6 @@
   margin-left: 20px;
   width: 340px;
   flex-shrink: 0;
-}
-
-.testimonial__name {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
-}
-
-.testimonial__position {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  color: #1967fa;
-  mix-blend-mode: normal;
-  opacity: 0.8;
 }
 
 .testimonial__picture {
