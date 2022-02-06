@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px) {
   .header {
-    width: 1120px;
+    width: 1024px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@
 }
 @media screen and (min-width: 1024px) {
   .headline {
-    width: 1120px;
+    width: 124px;
     margin: auto;
     display: flex;
     margin-top: 150px;
@@ -184,7 +184,7 @@
 }
 @media screen and (min-width: 1024px) {
   .testimonials {
-    width: 1120px;
+    width: 1024px;
     margin: auto;
     padding-top: 160px;
     display: flex;

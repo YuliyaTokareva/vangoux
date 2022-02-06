@@ -1,6 +1,7 @@
 .header {
   @include for-large-up {
-    width: 1120px;
+    width: 1024px;
+    // width: 1120px;
     margin: auto;
     display: flex;
     align-items: center;
