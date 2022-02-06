@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px) {
   .header {
-    width: 1024px;
+    width: 1120px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@
 }
 @media screen and (min-width: 1024px) {
   .headline {
-    width: 124px;
+    width: 1120px;
     margin: auto;
     display: flex;
     margin-top: 150px;
@@ -184,7 +184,7 @@
 }
 @media screen and (min-width: 1024px) {
   .testimonials {
-    width: 1024px;
+    width: 1120px;
     margin: auto;
     padding-top: 160px;
     display: flex;
@@ -311,6 +311,18 @@ html {
 button,
 a {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hide-mobile {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -32,3 +32,14 @@ button,
 a {
   cursor: pointer;
 }
+.hide-desktop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide-mobile {
+  @include for-large-down {
+    display: none;
+  }
+}
