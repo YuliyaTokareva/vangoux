@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
 }
-@media screen and (min-width: 640px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .logo {
     padding-top: 40px;
     margin-left: 80px;
@@ -38,7 +38,7 @@
 .navigation {
   margin-left: auto;
 }
-@media screen and (min-width: 640px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .navigation {
     display: none;
   }
@@ -71,7 +71,7 @@
   background: #1968fc;
   box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
 }
-@media screen and (min-width: 640px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .header__button {
     display: none;
   }
