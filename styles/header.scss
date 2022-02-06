@@ -1,4 +1,4 @@
-.header {
+.page-header {
   @include for-large-up {
     width: 1124px;
     // width: 1120px;
@@ -30,7 +30,7 @@
   color: #1968fc;
   background-attachment: fixed;
 }
-.navigation {
+.page-header__navigation {
   // width: 1070px;
   margin-left: auto;
 
@@ -51,7 +51,7 @@
   padding: 0 30px;
   text-decoration: none;
 }
-.header__button {
+.page-header__upload-btn {
   font-weight: 700;
   font-size: 14px;
   line-height: 50px;
