@@ -57,6 +57,7 @@
 
 .page-header__upload-btn {
   font-weight: 600;
+  width: 180px;
   font-size: 14px;
   line-height: 50px;
   padding: 0 30px;
@@ -176,16 +177,15 @@
 }
 
 .reviews {
-  display: none;
   padding-top: 50px;
   padding-bottom: 120px;
 }
 @media screen and (min-width: 1024px) {
   .reviews {
-    display: none;
     width: 1120px;
     margin: auto;
-    padding-top: 160px;
+    padding: 0;
+    margin-top: 160px;
     display: flex;
     justify-content: space-between;
   }
@@ -207,22 +207,18 @@
     margin: 0;
   }
 }
-
-.testimonial:first-child {
+.review:first-child {
   margin-top: 0;
 }
-
-.testimonial__main-info {
+.review__main-info {
   display: flex;
   position: relative;
 }
-
-.testimonial__photo {
+.review__photo {
   width: 100px;
   height: 100px;
 }
-
-.testimonial__name {
+.review__name {
   font-weight: 600;
   font-size: 18px;
   line-height: 30px;
@@ -230,8 +226,7 @@
   padding: 0;
   margin-top: 20px;
 }
-
-.testimonial__position {
+.review__position {
   font-weight: 600;
   font-size: 14px;
   line-height: 30px;
@@ -241,27 +236,23 @@
   margin: 0;
   padding: 0;
 }
-
-.testimonial__picture {
+.review__picture {
   width: 80px;
   height: 65px;
 }
-
-.testimonial__text {
+.review__text {
   font-size: 16px;
   line-height: 30px;
   margin: 0;
   padding: 0;
   margin-top: 40px;
 }
-
-.testimonial__about-autor {
+.review__about-autor {
   margin-left: 20px;
   width: 340px;
   flex-shrink: 0;
 }
-
-.testimonial__picture {
+.review__picture {
   position: absolute;
   right: -8px;
 }

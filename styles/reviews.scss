@@ -1,13 +1,12 @@
 .reviews {
-  display: none;
   padding-top: 50px;
   padding-bottom: 120px;
   @include for-large-up {
-    display: none;
     // width: 1120px;
     width: 1120px;
     margin: auto;
-    padding-top: 160px;
+    padding: 0;
+    margin-top: 160px;
     display: flex;
     justify-content: space-between;
   }
@@ -26,55 +25,56 @@
   @include for-large-up {
     margin: 0;
   }
-}
-.testimonial:first-child {
-  margin-top: 0;
-}
-.testimonial__main-info {
-  display: flex;
-  position: relative;
-}
-.testimonial__photo {
-  width: 100px;
-  height: 100px;
-}
-.testimonial__name {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-}
-.testimonial__position {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  // color: #1967fa;
-  opacity: 0.8;
-  margin: 0;
-  padding: 0;
-}
-.testimonial__picture {
-  width: 80px;
-  height: 65px;
-}
-.testimonial__text {
-  font-size: 16px;
-  line-height: 30px;
-  margin: 0;
-  padding: 0;
-  margin-top: 40px;
-}
-.testimonial__about-autor {
-  margin-left: 20px;
-  width: 340px;
-  flex-shrink: 0;
-}
 
-.testimonial__picture {
-  position: absolute;
-  right: -8px;
+  &:first-child {
+    margin-top: 0;
+  }
+  &__main-info {
+    display: flex;
+    position: relative;
+  }
+  &__photo {
+    width: 100px;
+    height: 100px;
+  }
+  &__name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  &__position {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    // color: #1967fa;
+    opacity: 0.8;
+    margin: 0;
+    padding: 0;
+  }
+  &__picture {
+    width: 80px;
+    height: 65px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+  }
+  &__about-autor {
+    margin-left: 20px;
+    width: 340px;
+    flex-shrink: 0;
+  }
+
+  &__picture {
+    position: absolute;
+    right: -8px;
+  }
 }
