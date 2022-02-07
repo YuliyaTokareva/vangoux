@@ -183,7 +183,7 @@
 
 .reviews {
   padding-top: 51px;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 @media screen and (min-width: 1025px) {
   .reviews {
@@ -417,19 +417,19 @@
 }
 @media screen and (min-width: 1025px) {
   .feature:first-child {
-    margin-top: 60px;
+    margin-top: 10px;
   }
 }
 
 @media screen and (min-width: 1025px) {
   .feature:nth-child(2) {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
 @media screen and (min-width: 1025px) {
   .feature:nth-child(3) {
-    margin-top: 140px;
+    margin-top: 90px;
   }
 }
 
@@ -763,6 +763,7 @@ a {
   height: 2px;
   background: #1968fc;
   box-shadow: 0px 2px 0px #d1e1fe;
+  margin-top: 10px;
 }
 @media screen and (min-width: 1025px) {
   .title-line {

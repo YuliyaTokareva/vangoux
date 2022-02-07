@@ -32,17 +32,17 @@
 .feature:first-child {
   margin-top: 0;
   @include for-large-up {
-    margin-top: 60px;
+    margin-top: 10px;
   }
 }
 .feature:nth-child(2) {
   @include for-large-up {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 .feature:nth-child(3) {
   @include for-large-up {
-    margin-top: 140px;
+    margin-top: 90px;
   }
 }
 .features__header {

@@ -74,6 +74,7 @@ a {
   height: 2px;
   background: #1968fc;
   box-shadow: 0px 2px 0px #d1e1fe;
+  margin-top: 10px;
   @include for-large-up {
     bottom: -10px;
     // left: -40px;
