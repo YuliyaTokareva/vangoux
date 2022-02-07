@@ -1,0 +1,75 @@
+.consultation {
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 120px;
+  background: #1968fc;
+  height: 460px;
+  padding: 60px;
+  @include for-large-up {
+    margin-top: 120px;
+    position: relative;
+  }
+}
+.consultation__text {
+  @include for-large-up {
+    width: 1120px;
+    margin: 0 auto;
+  }
+}
+.consultation__title {
+  width: 520px;
+  margin: auto;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: uppercase;
+  @include for-large-up {
+    margin: 0;
+  }
+}
+.consultation .title-block {
+  width: 520px;
+  margin: auto;
+  @include for-large-up {
+    margin: 0;
+    width: 100%;
+  }
+}
+.consultation__title-line {
+  margin-top: 10px;
+  background: #ffffff;
+  box-shadow: 0px 2px 0px #6a9eff;
+  width: 80px;
+  height: 2px;
+}
+.consultation__description {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 40px;
+  color: #ffffff;
+  @include for-large-up {
+    width: 640px;
+    // margin-top: 48px;
+    white-space: pre-line;
+  }
+}
+.consultation__button {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 320px;
+  color: #1968fc;
+  border: none;
+  margin-top: 40px;
+}
+.consultation__img {
+  position: absolute;
+  top: 20px;
+  right: 1px;
+}
