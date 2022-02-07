@@ -31,18 +31,18 @@
 
 .feature:first-child {
   margin-top: 0;
-  @include for-large-up {
-    margin-top: 10px;
-  }
+  // @include for-large-up {
+  //   margin-top: 0px;
+  // }
 }
 .feature:nth-child(2) {
   @include for-large-up {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 }
 .feature:nth-child(3) {
   @include for-large-up {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 }
 .features__header {
