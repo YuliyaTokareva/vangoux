@@ -2,6 +2,7 @@
   position: relative;
   margin-bottom: 99px;
 
+  margin-top: 80px;
   @include for-large-up {
     // width: 1120px;
     width: 1120px;
@@ -13,8 +14,7 @@
 }
 .headline__content {
   width: 480px;
-  margin-left: 80px;
-  margin-top: 80px;
+  margin: 0 auto;
   flex-shrink: 0;
   @include for-large-up {
     width: 600px;
