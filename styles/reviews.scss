@@ -1,5 +1,5 @@
 .reviews {
-  padding-top: 50px;
+  padding-top: 51px;
   padding-bottom: 120px;
   @include for-large-up {
     // width: 1120px;
@@ -38,7 +38,7 @@
     height: 100px;
   }
   &__name {
-    font-weight: 600;
+    // font-weight: 600;
     font-size: 18px;
     line-height: 30px;
     margin: 0;
@@ -46,7 +46,7 @@
     margin-top: 20px;
   }
   &__position {
-    font-weight: 600;
+    // font-weight: 600;
     font-size: 14px;
     line-height: 30px;
     display: flex;

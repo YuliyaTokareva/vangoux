@@ -7,12 +7,12 @@
     margin-top: 120px;
   }
 }
-.users .title-block {
-  margin-bottom: 28px;
-  @include for-large-up {
-    margin-bottom: 38px;
-  }
-}
+// .users .title-block {
+//   margin-bottom: 28px;
+//   @include for-large-up {
+//     margin-bottom: 38px;
+//   }
+// }
 .users__block {
   display: flex;
   flex-wrap: wrap;
