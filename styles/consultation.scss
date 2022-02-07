@@ -49,10 +49,10 @@
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
+  margin-top: 38px;
   @include for-large-up {
-    width: 640px;
-    // margin-top: 48px;
-    white-space: pre-line;
+    width: 634px;
+    margin-top: 48px;
   }
 }
 .consultation__button {
@@ -67,6 +67,7 @@
   color: #1968fc;
   border: none;
   margin-top: 40px;
+  background: #ffffff;
 }
 .consultation__img {
   position: absolute;

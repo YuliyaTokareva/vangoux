@@ -671,11 +671,12 @@
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
+  margin-top: 38px;
 }
 @media screen and (min-width: 1025px) {
   .consultation__description {
-    width: 640px;
-    white-space: pre-line;
+    width: 634px;
+    margin-top: 48px;
   }
 }
 
@@ -691,6 +692,7 @@
   color: #1968fc;
   border: none;
   margin-top: 40px;
+  background: #ffffff;
 }
 
 .consultation__img {
