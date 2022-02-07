@@ -1,0 +1,83 @@
+.features {
+  margin: 0 auto;
+  width: 520px;
+  margin-top: 120px;
+  @include for-large-up {
+    width: 1120px;
+  }
+}
+.features__list {
+  display: flex;
+  flex-direction: column;
+  @include for-large-up {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.features__card {
+  width: 520px;
+  height: 200px;
+  background: #ffffff;
+  box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
+  position: relative;
+  margin-top: 60px;
+  @include for-large-up {
+    width: 320px;
+    height: 290px;
+  }
+}
+
+.features__card:first-child {
+  margin-top: 0;
+  @include for-large-up {
+    margin-top: 60px;
+  }
+}
+.features__card:nth-child(2) {
+  @include for-large-up {
+    margin-top: 100px;
+  }
+}
+.features__card:nth-child(3) {
+  @include for-large-up {
+    margin-top: 140px;
+  }
+}
+.features__header {
+  display: flex;
+}
+.features__header-img {
+  width: 80px;
+  height: 80px;
+  @include for-large-up {
+    width: 120px;
+    height: 120px;
+  }
+}
+.features__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 80px;
+  background: #f3f7ff;
+  width: 100%;
+  padding-left: 10px;
+  @include for-large-up {
+    padding: 20px;
+    line-height: 30px;
+  }
+}
+.features__text {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  padding: 30px 40px;
+  @include for-large-up {
+    padding: 40px;
+  }
+}
+.features__decoration {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}

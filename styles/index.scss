@@ -4,6 +4,9 @@
 @import "headline.scss";
 @import "reviews.scss";
 @import "workflow.scss";
+@import "features.scss";
+@import "users.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -62,7 +65,6 @@ a {
   @include for-large-up {
     position: relative;
     margin-bottom: 50px;
-    margin-top: 120px;
   }
 }
 .title-line {
