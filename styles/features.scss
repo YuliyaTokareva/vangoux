@@ -18,7 +18,7 @@
 
 .feature {
   width: 520px;
-  height: 200px;
+  //   height: 200px;
   background: #ffffff;
   box-shadow: 0px 20px 60px rgba(49, 69, 244, 0.1);
   position: relative;
@@ -47,14 +47,14 @@
 }
 .features__header {
   display: flex;
+  align-items: center;
 }
 .features__header-img {
-  width: 80px;
-  height: 80px;
-  @include for-large-up {
-    width: 120px;
-    height: 120px;
-  }
+  //   width: 80px;
+  //   height: 80px;
+  //   @include for-large-up {
+  width: 120px;
+  height: 120px;
 }
 .features__title {
   font-weight: 600;
