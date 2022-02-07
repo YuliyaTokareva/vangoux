@@ -603,7 +603,7 @@
   width: 100%;
   margin-top: 120px;
   background: #1968fc;
-  height: 460px;
+  height: 450px;
   padding: 60px;
 }
 @media screen and (min-width: 1025px) {
@@ -632,6 +632,7 @@
 @media screen and (min-width: 1025px) {
   .consultation__title {
     margin: 0;
+    width: 1120px;
   }
 }
 
