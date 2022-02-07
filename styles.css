@@ -269,6 +269,7 @@
 @media screen and (min-width: 1025px) {
   .workflow {
     width: 1120px;
+    margin-top: 120px;
   }
 }
 
@@ -384,6 +385,7 @@
 @media screen and (min-width: 1025px) {
   .features {
     width: 1120px;
+    margin-top: 120px;
   }
 }
 
@@ -398,7 +400,7 @@
   }
 }
 
-.features__card {
+.feature {
   width: 520px;
   height: 200px;
   background: #ffffff;
@@ -407,29 +409,29 @@
   margin-top: 60px;
 }
 @media screen and (min-width: 1025px) {
-  .features__card {
+  .feature {
     width: 320px;
     height: 290px;
   }
 }
 
-.features__card:first-child {
+.feature:first-child {
   margin-top: 0;
 }
 @media screen and (min-width: 1025px) {
-  .features__card:first-child {
+  .feature:first-child {
     margin-top: 60px;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .features__card:nth-child(2) {
+  .feature:nth-child(2) {
     margin-top: 100px;
   }
 }
 
 @media screen and (min-width: 1025px) {
-  .features__card:nth-child(3) {
+  .feature:nth-child(3) {
     margin-top: 140px;
   }
 }
@@ -453,7 +455,6 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 80px;
-  background: #f3f7ff;
   width: 100%;
   padding-left: 10px;
 }
@@ -490,6 +491,7 @@
 @media screen and (min-width: 1025px) {
   .users {
     width: 1120px;
+    margin-top: 120px;
   }
 }
 
@@ -611,7 +613,7 @@ a {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .title-block {

@@ -3,6 +3,7 @@
   width: 520px;
   @include for-large-up {
     width: 1120px;
+    margin-top: 120px;
   }
 }
 .workflow__title-line {
