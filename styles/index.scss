@@ -18,6 +18,9 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  @include for-large-down {
+    padding-top: 40px;
+  }
   @include for-large-up {
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
   }

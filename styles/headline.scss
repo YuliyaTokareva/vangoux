@@ -1,13 +1,15 @@
 .headline {
   position: relative;
   margin-bottom: 99px;
-
-  margin-top: 80px;
+  margin-top: 118px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @include for-large-up {
     // width: 1120px;
     width: 1120px;
     margin: auto;
-    display: flex;
+    flex-direction: row;
     margin-top: 150px;
     position: relative;
   }
@@ -16,10 +18,12 @@
   width: 480px;
   margin: 0 auto;
   flex-shrink: 0;
+  margin-bottom: 80px;
   @include for-large-up {
     width: 600px;
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .headline__title {
@@ -57,9 +61,9 @@
 .headline__img {
   width: 599px;
   height: 502px;
-  margin-top: 50px;
-  display: block;
-  margin-left: 20px;
+  //   margin-top: 50px;
+  //   display: block;
+  //   margin-left: 20px;
 
   @include for-large-up {
     margin-left: 0;
@@ -72,7 +76,7 @@
 
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
   position: absolute;
-  bottom: -99px;
+  bottom: -118px;
   width: 100%;
   @include for-large-up {
     display: none;
