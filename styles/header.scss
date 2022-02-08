@@ -1,75 +1,68 @@
 .page-header {
   display: flex;
+  padding-left: 80px;
+
   @include for-large-up {
     width: 1120px;
-    // width: 1120px;
     margin: auto;
     display: flex;
     align-items: center;
     margin-top: 30px;
+    padding-left: 0;
   }
-  @include for-large-down {
-    padding-left: 80px;
+
+  &__navigation {
+    margin-left: auto;
+    display: flex;
+    width: 540px;
+    justify-content: flex-start;
+    @include for-large-down {
+      display: none;
+    }
+  }
+
+  &__upload-btn {
+    font-weight: 600;
+    width: 180px;
+    font-size: 14px;
+    line-height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border: none;
+    color: $text-color-white;
+    margin-left: 20px;
+    text-shadow: $text-shadow-dark-blue;
+    background: $background-blue;
+    box-shadow: $box-shadow-dark-blue;
+    @include for-large-down {
+      display: none;
+    }
   }
 }
 .logo {
   display: flex;
   align-items: center;
-  // @include for-large-down {
-  //   padding-top: 40px;
-  //   margin-left: 80px;
-  // }
-}
-.logo__img {
-  width: 50px;
-  height: 50px;
-}
-.logo__name {
-  // width: 100px;
-  // font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  text-align: center;
-  margin-left: 10px;
-  color: #1968fc;
-  background-attachment: fixed;
-}
-.page-header__navigation {
-  // width: 1070px;
-  margin-left: auto;
-  display: flex;
-  width: 540px;
 
-  justify-content: flex-start;
-
-  @include for-large-down {
-    display: none;
+  &__img {
+    width: 50px;
+    height: 50px;
+  }
+  &__name {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    color: $text-color-blue;
+    background-attachment: fixed;
   }
 }
+
 .nav-list__item {
   font-size: 14px;
   line-height: 50px;
-  color: #000000;
+  color: $text-color-black;
   flex-shrink: 0;
-
   display: inline-block;
   padding: 0 30px;
   text-decoration: none;
-}
-.page-header__upload-btn {
-  font-weight: 600;
-  width: 180px;
-  font-size: 14px;
-  line-height: 50px;
-  padding: 0 30px;
-  text-transform: uppercase;
-  border: none;
-  color: #ffffff;
-  margin-left: 20px;
-  text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
-  background: #1968fc;
-  box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
-  @include for-large-down {
-    display: none;
-  }
 }

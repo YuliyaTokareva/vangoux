@@ -1,0 +1,32 @@
+$background-white: #ffffff;
+$background-light: #fbfbfb;
+$background-blue: #1968fc;
+$background-dark-blue: rgba(25, 104, 252, 0.05);
+
+$background-gradient: linear-gradient(
+  180deg,
+  rgba(25, 104, 252, 0.0001) 0%,
+  rgba(25, 104, 252, 0.05) 23.07%,
+  rgba(25, 104, 252, 0.0001) 99.94%,
+  rgba(25, 104, 252, 0.05) 100%
+);
+
+$box-shadow-block: 0px 20px 60px rgba(49, 69, 244, 0.1);
+
+$box-shadow-blue: 0px 2px 0px #6a9eff;
+$box-shadow-dark-blue: 0px 10px 40px rgba(25, 104, 252, 0.3);
+$box-shadow-hard-blue: 0px 20px 60px rgb(49 69 244 / 10%);
+$box-shadow-light: 0px 2px 0px #d1e1fe;
+
+$text-shadow-dark-blue: 0px 10px 40px rgba(25, 104, 252, 0.2);
+
+$text-color-white: #ffffff;
+$text-color-blue: $background-blue;
+$text-color-light-blue: #1967fa;
+$text-color-dark-blue: #11223f;
+$text-color-black: #000000;
+
+$filter-shadow: drop-shadow(0px 20px 60px rgba(25, 104, 252, 0.1));
+$filter-shadow-footer: drop-shadow(2px 6px 12px rgba(255, 131, 51, 0.3));
+
+$border-color: #1968fc;
