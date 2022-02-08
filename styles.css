@@ -547,6 +547,11 @@
   font-size: 16px;
   line-height: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .user__text {
+    padding-right: 20px;
+  }
+}
 
 .purposes {
   margin-top: 120px;
@@ -562,7 +567,7 @@
   .purposes .title-block {
     width: 520px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 48px;
   }
 }
 
