@@ -30,6 +30,7 @@ html {
   }
 }
 .background-section {
+  overflow: auto;
   background: linear-gradient(
     180deg,
     rgba(25, 104, 252, 0.0001) 0%,

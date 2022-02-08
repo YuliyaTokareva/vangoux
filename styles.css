@@ -401,7 +401,7 @@
   .features .title-block {
     width: 520px;
     margin: 0 auto;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 }
 
@@ -943,6 +943,7 @@ html {
 }
 
 .background-section {
+  overflow: auto;
   background: linear-gradient(180deg, rgba(25, 104, 252, 0.0001) 0%, rgba(25, 104, 252, 0.05) 23.07%, rgba(25, 104, 252, 0.0001) 99.94%, rgba(25, 104, 252, 0.05) 100%);
 }
 @media screen and (min-width: 1025px) {
