@@ -417,6 +417,7 @@
   .feature {
     width: 320px;
     height: 290px;
+    margin: 0;
   }
 }
 
