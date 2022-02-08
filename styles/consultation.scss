@@ -1,10 +1,12 @@
 .consultation {
-  margin: 0 auto;
+  // margin: 0 auto;
   width: 100%;
   margin-top: 120px;
   background: #1968fc;
-  height: 450px;
-  padding: 60px 0;
+  height: 460px;
+  // padding: 60px 0;
+  display: flex;
+  align-items: center;
   @include for-large-up {
     margin-top: 120px;
     position: relative;
@@ -28,16 +30,20 @@
   text-transform: uppercase;
   @include for-large-up {
     margin: 0;
-    width: 1120px;
+    flex-shrink: 0;
+    // width: 1120px;
     // display: inline;
   }
 }
 .consultation .title-block {
-  width: 520px;
   margin: auto;
+  @include for-large-down {
+    width: 520px;
+  }
   @include for-large-up {
     margin: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 .consultation__title-line {
@@ -53,7 +59,7 @@
   font-size: 20px;
   line-height: 40px;
   color: #ffffff;
-  margin-top: 38px;
+  margin-top: 48px;
   @include for-large-up {
     width: 629px;
     margin-top: 48px;
