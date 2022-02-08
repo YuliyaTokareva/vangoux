@@ -9,10 +9,10 @@
   }
 }
 .purposes .title-block {
+  margin-bottom: 60px;
   @include for-large-down {
     width: 520px;
     margin: 0 auto;
-    margin-bottom: 60px;
   }
 }
 .purposes__row {
