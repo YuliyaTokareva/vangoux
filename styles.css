@@ -641,7 +641,7 @@
   width: 100%;
   margin-top: 120px;
   background: #1968fc;
-  height: 460px;
+  height: 465px;
   display: flex;
   align-items: center;
 }
@@ -649,6 +649,7 @@
   .consultation {
     margin-top: 120px;
     position: relative;
+    height: 460px;
   }
 }
 
