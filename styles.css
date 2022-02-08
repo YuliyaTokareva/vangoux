@@ -377,6 +377,43 @@
     margin-bottom: 50px;
   }
 }
+.features__header {
+  display: flex;
+  align-items: center;
+}
+.features__header-img {
+  width: 120px;
+  height: 120px;
+}
+.features__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 80px;
+  width: 100%;
+  padding-left: 10px;
+}
+@media screen and (min-width: 1025px) {
+  .features__title {
+    padding: 20px;
+    line-height: 30px;
+  }
+}
+.features__text {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0;
+  padding: 40px;
+}
+@media screen and (min-width: 1025px) {
+  .features__text {
+    padding: 40px;
+  }
+}
+.features__decoration {
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
 
 .feature {
   width: 520px;
@@ -405,43 +442,6 @@
   .feature:nth-child(3) {
     margin-top: 80px;
   }
-}
-.feature__header {
-  display: flex;
-  align-items: center;
-}
-.feature__header-img {
-  width: 120px;
-  height: 120px;
-}
-.feature__title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 80px;
-  width: 100%;
-  padding-left: 10px;
-}
-@media screen and (min-width: 1025px) {
-  .feature__title {
-    padding: 20px;
-    line-height: 30px;
-  }
-}
-.feature__text {
-  font-size: 16px;
-  line-height: 30px;
-  margin: 0;
-  padding: 40px;
-}
-@media screen and (min-width: 1025px) {
-  .feature__text {
-    padding: 40px;
-  }
-}
-.feature__decoration {
-  position: absolute;
-  bottom: -5px;
-  right: -5px;
 }
 
 .users {
@@ -710,36 +710,37 @@
     margin-top: 2px;
   }
 }
-.story-cards {
+
+.story-card {
   display: flex;
   margin-top: 40px;
   flex-shrink: 0;
 }
 @media screen and (min-width: 1025px) {
-  .story-cards {
+  .story-card {
     width: 480px;
     margin-top: 0;
   }
 }
-.story-cards:first-child {
+.story-card:first-child {
   margin-top: 0;
 }
-.story-cards__img {
+.story-card__img {
   width: 40px;
   height: 33px;
 }
-.story-cards__text {
+.story-card__text {
   margin-left: 20px;
 }
-.story-cards__title {
+.story-card__title {
   margin: 0;
   padding: 0;
   font-weight: 600;
   font-size: 20px;
   line-height: 40px;
-  color: #000000;
+  color: #111111;
 }
-.story-cards__description {
+.story-card__description {
   margin: 0;
   padding: 0;
   margin-top: 20px;
