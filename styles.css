@@ -537,8 +537,6 @@
 }
 
 .purposes {
-  margin: 0 auto;
-  width: 520px;
   margin-top: 120px;
 }
 @media screen and (min-width: 1025px) {
@@ -555,6 +553,12 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .purposes__row {
+    width: 520px;
+    margin: 0 auto;
+  }
+}
 @media screen and (min-width: 1025px) {
   .purposes__row {
     display: flex;
@@ -615,6 +619,10 @@
   }
 }
 
+.consultation__text {
+  width: 520px;
+  margin: 0 auto;
+}
 @media screen and (min-width: 1025px) {
   .consultation__text {
     width: 1120px;
@@ -623,7 +631,6 @@
 }
 
 .consultation__title {
-  width: 520px;
   margin: auto;
   color: #fff;
   font-weight: 700;
@@ -635,7 +642,6 @@
   .consultation__title {
     margin: 0;
     width: 1120px;
-    display: inline;
   }
 }
 
@@ -871,6 +877,7 @@ html {
 }
 
 .page {
+  max-width: 1400px;
   margin: auto;
   min-height: 100vh;
   display: flex;
