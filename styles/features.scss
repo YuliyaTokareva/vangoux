@@ -1,6 +1,6 @@
 .features {
-  margin: 0 auto;
-  width: 520px;
+  // margin: 0 auto;
+  // width: 520px;
   margin-top: 120px;
   @include for-large-up {
     width: 1120px;
@@ -10,12 +10,21 @@
 .features__list {
   display: flex;
   flex-direction: column;
+  @include for-large-down {
+    align-items: center;
+  }
   @include for-large-up {
     flex-direction: row;
     justify-content: space-between;
   }
 }
-
+.features .title-block {
+  @include for-large-down {
+    width: 520px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
 .feature {
   width: 520px;
   //   height: 200px;
