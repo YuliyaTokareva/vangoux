@@ -1,91 +1,92 @@
 .headline {
-  position: relative;
-  margin-bottom: 99px;
-  margin-top: 118px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  @include for-large-up {
-    width: 1120px;
-    margin: auto;
-    flex-direction: row;
-    margin-top: 150px;
     position: relative;
-  }
-
-  &__content {
-    width: 480px;
-    margin: 0 auto;
-    flex-shrink: 0;
-    margin-bottom: 80px;
-    @include for-large-up {
-      width: 600px;
-      margin-left: 0;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-  }
-  &__title {
-    padding: 0;
-    margin: 0;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    letter-spacing: 1px;
-  }
-  &__description {
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    line-height: 40px;
-    margin-top: 20px;
-  }
-  &__upload-btn {
-    width: 300px;
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    background: $background-blue;
-    box-shadow: $box-shadow-dark-blue;
-    border: none;
-    text-transform: uppercase;
-    color: $text-color-white;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    text-shadow: $text-shadow-dark-blue;
-    margin-top: 40px;
-  }
-  &__img {
-    width: 599px;
-    height: 502px;
+    margin-bottom: 99px;
+    margin-top: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @include for-large-up {
-      margin-left: 0;
-      right: 0;
-      position: absolute;
-      top: 50px;
+        width: 1120px;
+        margin: auto;
+        flex-direction: row;
+        margin-top: 150px;
+        position: relative;
     }
-  }
-  &__mobile-info-banner {
-    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
-    position: absolute;
-    bottom: -100px;
-    width: 100%;
-    @include for-large-up {
-      display: none;
+
+    &__content {
+        width: 480px;
+        margin: 0 auto;
+        flex-shrink: 0;
+        margin-bottom: 80px;
+        margin-left: 80px;
+        @include for-large-up {
+            width: 600px;
+            margin-left: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
     }
-  }
-  &__mobile-info-text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    color: $text-color-white;
-    width: 520px;
-    display: block;
-    margin: 30px auto;
-  }
+    &__title {
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 1px;
+    }
+    &__description {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        line-height: 40px;
+        margin-top: 20px;
+    }
+    &__upload-btn {
+        width: 300px;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        background: $background-blue;
+        box-shadow: $box-shadow-dark-blue;
+        border: none;
+        text-transform: uppercase;
+        color: $text-color-white;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        text-shadow: $text-shadow-dark-blue;
+        margin-top: 40px;
+    }
+    &__img {
+        width: 599px;
+        height: 502px;
+
+        @include for-large-up {
+            margin-left: 0;
+            right: 0;
+            position: absolute;
+            top: 50px;
+        }
+    }
+    &__mobile-info-banner {
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+        position: absolute;
+        bottom: -100px;
+        width: 100%;
+        @include for-large-up {
+            display: none;
+        }
+    }
+    &__mobile-info-text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $text-color-white;
+        width: 520px;
+        display: block;
+        margin: 30px auto;
+    }
 }
